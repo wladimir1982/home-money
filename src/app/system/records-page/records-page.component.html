@@ -1,0 +1,26 @@
+<div class="title-block">
+  <h3 class="title">
+    Страница записей <span class="sparkline bar"></span>
+  </h3>
+</div>
+<section class="section text-center" *ngIf="!isLoaded">
+  <svv-loader></svv-loader>
+</section>
+<section class="section" *ngIf="isLoaded">
+  <div class="row">
+    <div class="col-md-6">
+      <svv-add-event [categories]="categories"></svv-add-event>
+    </div>
+    <div class="col-md-6">
+      <svv-add-category (onCategoryAdd)="newCategoryAdded($event)"></svv-add-category>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6">
+      <svv-edit-category
+        [categories]="categories"
+        (onCategoryEdit)="categoryWasEdited($event)"
+      ></svv-edit-category>
+    </div>
+  </div>
+</section>

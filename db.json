@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "svv@mail.ru",
+      "password": "12345678",
+      "name": "Администратор"
+    },
+    {
+      "email": "test@mail.ru",
+      "password": "111111",
+      "name": "Alex",
+      "id": 2
+    },
+    {
+      "email": "qqq@mail.com",
+      "password": "111111",
+      "name": "Den",
+      "id": 3
+    }
+  ],
+  "bill": {
+    "value": 100000,
+    "currency": "UAH"
+  },
+  "categories": [
+    {
+      "name": "Дом",
+      "capacity": 15000,
+      "id": 1
+    },
+    {
+      "name": "Еда",
+      "capacity": 10000,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "name": "Машина",
+      "capacity": 7000
+    },
+    {
+      "name": "Salut!!!",
+      "capacity": 13,
+      "id": 4
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "type": "income",
+      "amount": 1250,
+      "category": 2,
+      "date": "12.04.2018 19:49:02",
+      "description": "Подарили еду в гостях"
+    },
+    {
+      "id": 2,
+      "type": "outcome",
+      "amount": 1300,
+      "category": 1,
+      "date": "13.04.2018 19:49:02",
+      "description": "Купил посудомоечную машину"
+    },
+    {
+      "type": "income",
+      "amount": 1480,
+      "category": 2,
+      "date": "17.04.2018 14:00:48",
+      "id": 3,
+      "description": "Поход в окей с баллами. Бесплатная еда"
+    },
+    {
+      "type": "outcome",
+      "amount": 2470,
+      "category": 2,
+      "date": "17.04.2018 14:00:58",
+      "id": 4,
+      "description": "Закупка на неделю"
+    },
+    {
+      "type": "outcome",
+      "amount": 4000,
+      "category": 3,
+      "date": "10.04.2018 14:01:58",
+      "id": 5,
+      "description": "Заправка + проход ТО"
+    },
+    {
+      "type": "outcome",
+      "amount": 1200,
+      "category": 4,
+      "date": "17.05.2018 21:48:21",
+      "description": "Phone",
+      "id": 6
+    },
+    {
+      "type": "income",
+      "amount": 1500,
+      "category": 3,
+      "date": "19.05.2018 23:36:56",
+      "description": "Авто",
+      "id": 7
+    },
+    {
+      "type": "outcome",
+      "amount": 3600,
+      "category": 1,
+      "date": "19.05.2018 23:37:18",
+      "description": " Комуналка",
+      "id": 8
+    }
+  ]
+}
